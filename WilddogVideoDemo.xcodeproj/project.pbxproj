@@ -14,6 +14,7 @@
 		28C92F371D8692450098950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C92F361D8692450098950B /* Assets.xcassets */; };
 		28C92F3A1D8692450098950B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C92F381D8692450098950B /* LaunchScreen.storyboard */; };
 		28C92F451D8692450098950B /* WilddogVideoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C92F441D8692450098950B /* WilddogVideoDemoTests.m */; };
+		28C92F531D869A340098950B /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C92F521D869A340098950B /* RoomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		28C92F401D8692450098950B /* WilddogVideoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogVideoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C92F441D8692450098950B /* WilddogVideoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogVideoDemoTests.m; sourceTree = "<group>"; };
 		28C92F461D8692450098950B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C92F511D869A340098950B /* RoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		28C92F521D869A340098950B /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				28C92F2E1D8692450098950B /* AppDelegate.m */,
 				28C92F301D8692450098950B /* ViewController.h */,
 				28C92F311D8692450098950B /* ViewController.m */,
+				28C92F511D869A340098950B /* RoomViewController.h */,
+				28C92F521D869A340098950B /* RoomViewController.m */,
 				28C92F331D8692450098950B /* Main.storyboard */,
 				28C92F361D8692450098950B /* Assets.xcassets */,
 				28C92F381D8692450098950B /* LaunchScreen.storyboard */,
@@ -214,6 +219,7 @@
 				28C92F321D8692450098950B /* ViewController.m in Sources */,
 				28C92F2F1D8692450098950B /* AppDelegate.m in Sources */,
 				28C92F2C1D8692450098950B /* main.m in Sources */,
+				28C92F531D869A340098950B /* RoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
