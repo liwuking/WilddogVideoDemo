@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2A66126404C9CBF346359B56FF510E /* WQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C004F9BB6856A85D782455A65C7DCCF /* WQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C62B71521CEBE4CF4B527D0505F5DDC /* WilddogSync-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4116ADF27E72E35BC3BE1AB3F11422D1 /* WilddogSync-dummy.m */; };
+		21FE24B775821E34084E9638ABE8C82F /* Wilddog.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDDDF757ABC803C127CB10E0010E080 /* Wilddog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36ABDCB9EC9B462AE1F9C45D968CE206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241BC2899E23E73A2E7D8C37E9135AA2 /* Foundation.framework */; };
+		44879D3AFE8B34C6C69A6D99308C458C /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3E467D1FD9035A6C63293ECCCABAF /* Empty.m */; };
+		4E2B660E1A79CB1424D9FD1521A9DED5 /* WilddogApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D53141B82E272BA8AF4DAF420BBAE31 /* WilddogApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5575A6CE53B53B2D46D9D48791DD3732 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C50826E5772B278A2E1E8AE01D9ADEC /* JavaScriptCore.framework */; };
+		599EC6D952176A0DB3E5605091901224 /* WilddogSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D17B36473B8436197D75F66556A313 /* WilddogSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6660A68C76420CD783D4669B3172285C /* WTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6A82B96B9BFC9E0CAF2F15D2E09BAA /* WTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E059504D36670C0933DFC952553830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241BC2899E23E73A2E7D8C37E9135AA2 /* Foundation.framework */; };
+		B9AE406DABBD64E6AC09F67E330ACD02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241BC2899E23E73A2E7D8C37E9135AA2 /* Foundation.framework */; };
+		B9CEE2E8F4BA07A3F09C83370585D715 /* WDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1103FB33C3550F70D7C2AF630794A6A6 /* WDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D9023AB9CDBBF22330459092710F8C /* WConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EA5021914DB359A34D9AEBD17594CF /* WConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD7191D07179F9DC31837CE883E3DF1 /* Pods-WilddogVideoDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D050D503DE4CF5B6F5DC41F07B5994FF /* Pods-WilddogVideoDemoTests-dummy.m */; };
+		D4A8A1D294D91602D021C14577D2772D /* WMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AB3BEBCE68E1F2DB9AD9F539361731 /* WMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDF073FCC1CD876610A5F283FD6C655 /* WEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F68816F8BADCB067B386962FCEB09B2 /* WEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A3AD2B429630D861122D41D95F24DF /* Pods-WilddogVideoDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 044C959434252C00247FA407C5736142 /* Pods-WilddogVideoDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB6818AE8B1D71B6EF06E812A73308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBB61BD828C9787B3C98BAF8AD29D71;
+			remoteInfo = WilddogSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044C959434252C00247FA407C5736142 /* Pods-WilddogVideoDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WilddogVideoDemo-dummy.m"; sourceTree = "<group>"; };
+		0CDDDF757ABC803C127CB10E0010E080 /* Wilddog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Wilddog.h; sourceTree = "<group>"; };
+		0D53141B82E272BA8AF4DAF420BBAE31 /* WilddogApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WilddogApp.h; sourceTree = "<group>"; };
+		1103FB33C3550F70D7C2AF630794A6A6 /* WDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDataSnapshot.h; sourceTree = "<group>"; };
+		12AB3BEBCE68E1F2DB9AD9F539361731 /* WMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WMutableData.h; sourceTree = "<group>"; };
+		1B4E941AE0AE5E18403DF2462272E0A8 /* libWilddogStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWilddogStatic.a; sourceTree = "<group>"; };
+		1C004F9BB6856A85D782455A65C7DCCF /* WQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WQuery.h; sourceTree = "<group>"; };
+		1C00F4FA4AC3BC55F8696AE12FFD58E5 /* Pods-WilddogVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WilddogVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1EC867F5B370660D433A403FCC0FD92C /* libPods-WilddogVideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WilddogVideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D17B36473B8436197D75F66556A313 /* WilddogSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WilddogSync.h; sourceTree = "<group>"; };
+		241BC2899E23E73A2E7D8C37E9135AA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		27F4CF7835D45B1A1F53E03DA801E213 /* Pods-WilddogVideoDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WilddogVideoDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		2C6A82B96B9BFC9E0CAF2F15D2E09BAA /* WTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTransactionResult.h; sourceTree = "<group>"; };
+		4116ADF27E72E35BC3BE1AB3F11422D1 /* WilddogSync-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WilddogSync-dummy.m"; sourceTree = "<group>"; };
+		4A9008FF2CFCEDF2C0F2A2E4EABF0480 /* Pods-WilddogVideoDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WilddogVideoDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C50826E5772B278A2E1E8AE01D9ADEC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		68A00B87E2798F8535244BACB84F491C /* Pods-WilddogVideoDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WilddogVideoDemoTests-resources.sh"; sourceTree = "<group>"; };
+		794698E666DED9983BABFD6DEA3EB35A /* WilddogAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WilddogAuth.framework; sourceTree = "<group>"; };
+		7BB6A1FD26F2AE980F606B76AF2DF2C8 /* Pods-WilddogVideoDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WilddogVideoDemo-resources.sh"; sourceTree = "<group>"; };
+		8DB3E467D1FD9035A6C63293ECCCABAF /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		8F68816F8BADCB067B386962FCEB09B2 /* WEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WEventType.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9879CA8F1282D34073AEE85DF25C843F /* WilddogSync-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WilddogSync-prefix.pch"; sourceTree = "<group>"; };
+		9D2A981254E533C553B87C8C7C84E66D /* Pods-WilddogVideoDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WilddogVideoDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A93F2E59AFFCDABFD067BBAD06F4865A /* libPods-WilddogVideoDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WilddogVideoDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EA5021914DB359A34D9AEBD17594CF /* WConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WConfig.h; sourceTree = "<group>"; };
+		C23E6D511DEC1582CD534F8DFC9ABFC6 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		C2EC484217A87ED3C6DE23B591559753 /* Pods-WilddogVideoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WilddogVideoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3DF96AB9F8BFF9BAD69D6C87C79533A /* Pods-WilddogVideoDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WilddogVideoDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEB316A17C99028FC025B9223145E64E /* WilddogSync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WilddogSync.xcconfig; sourceTree = "<group>"; };
+		CF0C9A4124C5F8D137FE40351A299EC6 /* WilddogVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WilddogVideo.framework; sourceTree = "<group>"; };
+		D050D503DE4CF5B6F5DC41F07B5994FF /* Pods-WilddogVideoDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WilddogVideoDemoTests-dummy.m"; sourceTree = "<group>"; };
+		D313C4507EEBA34F741BA794324F97F2 /* Pods-WilddogVideoDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WilddogVideoDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D68FB4757AB549A53EFABDFDCCE53949 /* Pods-WilddogVideoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WilddogVideoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E52D78223289691827E30EB9F5029F28 /* Pods-WilddogVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WilddogVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE6D3FABB54DEDD8F0BF6D8FC5C2C9DD /* libWilddogSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWilddogSync.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3A3797C26511A8B2F013333F6AF003 /* Pods-WilddogVideoDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WilddogVideoDemo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81691BE632788F0AC5A3EEE76A275EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E059504D36670C0933DFC952553830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC2B411FC3DF00BA4C23695BAA71088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ABDCB9EC9B462AE1F9C45D968CE206 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3CF18F6CFABD8101241D3DE5636622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE406DABBD64E6AC09F67E330ACD02 /* Foundation.framework in Frameworks */,
+				5575A6CE53B53B2D46D9D48791DD3732 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05244CDB42EA16E0266F74E279DC43B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC867F5B370660D433A403FCC0FD92C /* libPods-WilddogVideoDemo.a */,
+				A93F2E59AFFCDABFD067BBAD06F4865A /* libPods-WilddogVideoDemoTests.a */,
+				EE6D3FABB54DEDD8F0BF6D8FC5C2C9DD /* libWilddogSync.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C9D9180435CCF96EB5D9222EADFD6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				794698E666DED9983BABFD6DEA3EB35A /* WilddogAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		313323175B0B7418D6D0166E5C74A4E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				241BC2899E23E73A2E7D8C37E9135AA2 /* Foundation.framework */,
+				5C50826E5772B278A2E1E8AE01D9ADEC /* JavaScriptCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		353C2630A3F3098B2A960B2E8E44D3B0 /* Wilddog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wilddog;
+			sourceTree = "<group>";
+		};
+		3BA3B7955BB0CC25571644216F59D024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E941AE0AE5E18403DF2462272E0A8 /* libWilddogStatic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				313323175B0B7418D6D0166E5C74A4E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6413E26C65510F4EC71B876F553E06 /* Pods-WilddogVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A9008FF2CFCEDF2C0F2A2E4EABF0480 /* Pods-WilddogVideoDemo-acknowledgements.markdown */,
+				C3DF96AB9F8BFF9BAD69D6C87C79533A /* Pods-WilddogVideoDemo-acknowledgements.plist */,
+				044C959434252C00247FA407C5736142 /* Pods-WilddogVideoDemo-dummy.m */,
+				FD3A3797C26511A8B2F013333F6AF003 /* Pods-WilddogVideoDemo-frameworks.sh */,
+				7BB6A1FD26F2AE980F606B76AF2DF2C8 /* Pods-WilddogVideoDemo-resources.sh */,
+				1C00F4FA4AC3BC55F8696AE12FFD58E5 /* Pods-WilddogVideoDemo.debug.xcconfig */,
+				E52D78223289691827E30EB9F5029F28 /* Pods-WilddogVideoDemo.release.xcconfig */,
+			);
+			name = "Pods-WilddogVideoDemo";
+			path = "Target Support Files/Pods-WilddogVideoDemo";
+			sourceTree = "<group>";
+		};
+		5942259D4F27932CAE32BF69D19F1D45 /* Pods-WilddogVideoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D313C4507EEBA34F741BA794324F97F2 /* Pods-WilddogVideoDemoTests-acknowledgements.markdown */,
+				9D2A981254E533C553B87C8C7C84E66D /* Pods-WilddogVideoDemoTests-acknowledgements.plist */,
+				D050D503DE4CF5B6F5DC41F07B5994FF /* Pods-WilddogVideoDemoTests-dummy.m */,
+				27F4CF7835D45B1A1F53E03DA801E213 /* Pods-WilddogVideoDemoTests-frameworks.sh */,
+				68A00B87E2798F8535244BACB84F491C /* Pods-WilddogVideoDemoTests-resources.sh */,
+				C2EC484217A87ED3C6DE23B591559753 /* Pods-WilddogVideoDemoTests.debug.xcconfig */,
+				D68FB4757AB549A53EFABDFDCCE53949 /* Pods-WilddogVideoDemoTests.release.xcconfig */,
+			);
+			name = "Pods-WilddogVideoDemoTests";
+			path = "Target Support Files/Pods-WilddogVideoDemoTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AE8C7785A86971983DA08B374A28FCEC /* Pods */,
+				05244CDB42EA16E0266F74E279DC43B2 /* Products */,
+				CA3449DEBDD86C054A2688C776047F60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8C7785A86971983DA08B374A28FCEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				353C2630A3F3098B2A960B2E8E44D3B0 /* Wilddog */,
+				D44C930C19034D8088F5052FE4444A93 /* WilddogAuth */,
+				D395ED078B07D2DEA0FFB83C06B8D894 /* WilddogSync */,
+				EF7DB6739FBBC915EAFC2918FF5C121A /* WilddogVideo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA3449DEBDD86C054A2688C776047F60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6413E26C65510F4EC71B876F553E06 /* Pods-WilddogVideoDemo */,
+				5942259D4F27932CAE32BF69D19F1D45 /* Pods-WilddogVideoDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D395ED078B07D2DEA0FFB83C06B8D894 /* WilddogSync */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3E467D1FD9035A6C63293ECCCABAF /* Empty.m */,
+				B9EA5021914DB359A34D9AEBD17594CF /* WConfig.h */,
+				1103FB33C3550F70D7C2AF630794A6A6 /* WDataSnapshot.h */,
+				8F68816F8BADCB067B386962FCEB09B2 /* WEventType.h */,
+				0CDDDF757ABC803C127CB10E0010E080 /* Wilddog.h */,
+				0D53141B82E272BA8AF4DAF420BBAE31 /* WilddogApp.h */,
+				20D17B36473B8436197D75F66556A313 /* WilddogSync.h */,
+				12AB3BEBCE68E1F2DB9AD9F539361731 /* WMutableData.h */,
+				1C004F9BB6856A85D782455A65C7DCCF /* WQuery.h */,
+				2C6A82B96B9BFC9E0CAF2F15D2E09BAA /* WTransactionResult.h */,
+				3BA3B7955BB0CC25571644216F59D024 /* Frameworks */,
+				F461A9269C8D812A4F60696EED6502B6 /* Support Files */,
+			);
+			path = WilddogSync;
+			sourceTree = "<group>";
+		};
+		D44C930C19034D8088F5052FE4444A93 /* WilddogAuth */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D9180435CCF96EB5D9222EADFD6B2 /* Frameworks */,
+			);
+			path = WilddogAuth;
+			sourceTree = "<group>";
+		};
+		EAD1399A051EA85090E483C2A51A023C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23E6D511DEC1582CD534F8DFC9ABFC6 /* WebRTC.framework */,
+				CF0C9A4124C5F8D137FE40351A299EC6 /* WilddogVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7DB6739FBBC915EAFC2918FF5C121A /* WilddogVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1399A051EA85090E483C2A51A023C /* Frameworks */,
+			);
+			path = WilddogVideo;
+			sourceTree = "<group>";
+		};
+		F461A9269C8D812A4F60696EED6502B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB316A17C99028FC025B9223145E64E /* WilddogSync.xcconfig */,
+				4116ADF27E72E35BC3BE1AB3F11422D1 /* WilddogSync-dummy.m */,
+				9879CA8F1282D34073AEE85DF25C843F /* WilddogSync-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WilddogSync";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		366D197566B19DE1AE1326D4B5BE9170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D9023AB9CDBBF22330459092710F8C /* WConfig.h in Headers */,
+				B9CEE2E8F4BA07A3F09C83370585D715 /* WDataSnapshot.h in Headers */,
+				DDDF073FCC1CD876610A5F283FD6C655 /* WEventType.h in Headers */,
+				21FE24B775821E34084E9638ABE8C82F /* Wilddog.h in Headers */,
+				4E2B660E1A79CB1424D9FD1521A9DED5 /* WilddogApp.h in Headers */,
+				599EC6D952176A0DB3E5605091901224 /* WilddogSync.h in Headers */,
+				D4A8A1D294D91602D021C14577D2772D /* WMutableData.h in Headers */,
+				1B2A66126404C9CBF346359B56FF510E /* WQuery.h in Headers */,
+				6660A68C76420CD783D4669B3172285C /* WTransactionResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F8839CD337B83237B130F15482780D5 /* Pods-WilddogVideoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FB1C52880E1A2B13D823564D50D051 /* Build configuration list for PBXNativeTarget "Pods-WilddogVideoDemoTests" */;
+			buildPhases = (
+				874DDE9D93B1D667E711FB8CE1862291 /* Sources */,
+				81691BE632788F0AC5A3EEE76A275EB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WilddogVideoDemoTests";
+			productName = "Pods-WilddogVideoDemoTests";
+			productReference = A93F2E59AFFCDABFD067BBAD06F4865A /* libPods-WilddogVideoDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3FBB61BD828C9787B3C98BAF8AD29D71 /* WilddogSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003DACEF07CEEDF718076CD20E6C5CDD /* Build configuration list for PBXNativeTarget "WilddogSync" */;
+			buildPhases = (
+				90DCA7EDC0A9B1F25EDEC95620AD7375 /* Sources */,
+				DF3CF18F6CFABD8101241D3DE5636622 /* Frameworks */,
+				366D197566B19DE1AE1326D4B5BE9170 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilddogSync;
+			productName = WilddogSync;
+			productReference = EE6D3FABB54DEDD8F0BF6D8FC5C2C9DD /* libWilddogSync.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53A7CD8641B1B490E0B7A1C5FA28BB5A /* Pods-WilddogVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB06B80D1F7EE10F0C669E91632960B5 /* Build configuration list for PBXNativeTarget "Pods-WilddogVideoDemo" */;
+			buildPhases = (
+				C0C3547FB18A94F3F12C6E1723C797DC /* Sources */,
+				8AC2B411FC3DF00BA4C23695BAA71088 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B79828C1D89431840D7C2946CDA71A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-WilddogVideoDemo";
+			productName = "Pods-WilddogVideoDemo";
+			productReference = 1EC867F5B370660D433A403FCC0FD92C /* libPods-WilddogVideoDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 05244CDB42EA16E0266F74E279DC43B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53A7CD8641B1B490E0B7A1C5FA28BB5A /* Pods-WilddogVideoDemo */,
+				3F8839CD337B83237B130F15482780D5 /* Pods-WilddogVideoDemoTests */,
+				3FBB61BD828C9787B3C98BAF8AD29D71 /* WilddogSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874DDE9D93B1D667E711FB8CE1862291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD7191D07179F9DC31837CE883E3DF1 /* Pods-WilddogVideoDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DCA7EDC0A9B1F25EDEC95620AD7375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44879D3AFE8B34C6C69A6D99308C458C /* Empty.m in Sources */,
+				1C62B71521CEBE4CF4B527D0505F5DDC /* WilddogSync-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C3547FB18A94F3F12C6E1723C797DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A3AD2B429630D861122D41D95F24DF /* Pods-WilddogVideoDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B79828C1D89431840D7C2946CDA71A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WilddogSync;
+			target = 3FBB61BD828C9787B3C98BAF8AD29D71 /* WilddogSync */;
+			targetProxy = 4EB6818AE8B1D71B6EF06E812A73308F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127CBAA9BBCF9532AE76BE1E1E682802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB316A17C99028FC025B9223145E64E /* WilddogSync.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WilddogSync/WilddogSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C897154D740422BCAFA885A3EC884BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C00F4FA4AC3BC55F8696AE12FFD58E5 /* Pods-WilddogVideoDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C4A843E6A75360B96FC2C5EBF9E5D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB316A17C99028FC025B9223145E64E /* WilddogSync.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WilddogSync/WilddogSync-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7138632692F6F8CB449CDCDC39240A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68FB4757AB549A53EFABDFDCCE53949 /* Pods-WilddogVideoDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9BB232C3FA7D024435EEF73AC1551A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52D78223289691827E30EB9F5029F28 /* Pods-WilddogVideoDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D67168D9326DC26AF89A4A8279EE923B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EC484217A87ED3C6DE23B591559753 /* Pods-WilddogVideoDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003DACEF07CEEDF718076CD20E6C5CDD /* Build configuration list for PBXNativeTarget "WilddogSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127CBAA9BBCF9532AE76BE1E1E682802 /* Debug */,
+				5C4A843E6A75360B96FC2C5EBF9E5D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB1C52880E1A2B13D823564D50D051 /* Build configuration list for PBXNativeTarget "Pods-WilddogVideoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67168D9326DC26AF89A4A8279EE923B /* Debug */,
+				7138632692F6F8CB449CDCDC39240A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB06B80D1F7EE10F0C669E91632960B5 /* Build configuration list for PBXNativeTarget "Pods-WilddogVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C897154D740422BCAFA885A3EC884BD /* Debug */,
+				9BB232C3FA7D024435EEF73AC1551A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

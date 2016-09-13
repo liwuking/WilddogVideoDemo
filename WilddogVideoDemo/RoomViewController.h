@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WilddogAuth/WilddogAuth.h>
 
 @interface RoomViewController : UIViewController
+
+@property(nonatomic, strong)NSString *appid;
+@property(nonatomic, strong)WDGUser *wDGUser;
 
 @end

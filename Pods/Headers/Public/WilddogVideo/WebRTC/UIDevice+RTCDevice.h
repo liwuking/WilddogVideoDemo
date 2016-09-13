@@ -1,0 +1,1 @@
+../../../../WilddogVideo/WebRTC.framework/Headers/UIDevice+RTCDevice.h
