@@ -1,1 +1,0 @@
-../../../WilddogSync/WQuery.h

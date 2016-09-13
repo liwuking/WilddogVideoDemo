@@ -8,7 +8,7 @@ target 'WilddogVideoDemo' do
   # Pods for WilddogVideoDemo
 
   # Online Version
-  pod 'WilddogVideo'
+  pod 'WilddogVideo’, :path => ‘.’
 
   target 'WilddogVideoDemoTests' do
     inherit! :search_paths

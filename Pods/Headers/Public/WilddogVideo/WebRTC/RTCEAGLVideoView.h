@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WebRTC.framework/Headers/RTCEAGLVideoView.h
+../../../../../WebRTC.framework/Headers/RTCEAGLVideoView.h

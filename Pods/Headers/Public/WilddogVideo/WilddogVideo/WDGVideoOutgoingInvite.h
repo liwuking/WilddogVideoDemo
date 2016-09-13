@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WilddogVideo.framework/Headers/WDGVideoOutgoingInvite.h
+../../../../../WilddogVideo.framework/Headers/WDGVideoOutgoingInvite.h

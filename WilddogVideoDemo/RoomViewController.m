@@ -7,12 +7,12 @@
 //
 
 #import "RoomViewController.h"
-#import <WilddogSync.h>
+#import <WilddogSync/WilddogSync.h>
 #import <WilddogVideo/WilddogVideo.h>
 #import "UserListTableViewController.h"
 @interface RoomViewController ()<WDGVideoClientDelegate, WDGVideoConversationDelegate>
 
-@property(nonatomic, strong)Wilddog *wilddog;
+@property(nonatomic, strong) WDGSyncReference *wilddog;
 @property(nonatomic, strong)WDGVideoClient *wilddogVideoClient;
 @property(nonatomic, strong)WDGVideoLocalStream *localStream;
 @property(nonatomic, strong)WDGVideoConversation *videoConversation;
@@ -22,6 +22,7 @@
 @property(nonatomic, strong)NSString *myUserID;
 @property(nonatomic, strong)NSMutableArray *onlineUsers;
 @property (weak, nonatomic) IBOutlet UIButton *userListBtn;
+@property (weak, nonatomic) IBOutlet UILabel *uidLab;
 
 @end
 
@@ -31,10 +32,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.myUserID = self.wDGUser.uid;
-    NSString *url = [NSString stringWithFormat:@"https://%@.wilddogio.com",self.appid];
-    self.wilddog = [[Wilddog alloc] initWithUrl:url];
+    self.wilddog = [[WDGSync sync] reference];
 
-    self.title = self.myUserID;
+    self.uidLab.text = self.myUserID;
     [self setupWilddogVideoClient];
 
 }
@@ -67,11 +67,11 @@
 
 -(void)setupWilddogVideoClient {
 
-    Wilddog *userWilddog = [[self.wilddog childByAppendingPath:@"users"] childByAppendingPath:self.myUserID];
+    WDGSyncReference *userWilddog = [[self.wilddog child:@"users"] child:self.myUserID];
     [userWilddog setValue:@YES];
     [userWilddog onDisconnectRemoveValue];
 
-    self.wilddogVideoClient = [[WDGVideoClient alloc] initWithWilddog:self.wilddog user:self.wDGUser];
+    self.wilddogVideoClient = [[WDGVideoClient alloc] initWithSyncReference:self.wilddog user:self.wDGUser];
     self.wilddogVideoClient.delegate = self;
 
     [self startPreview];
@@ -80,7 +80,7 @@
 }
 
 -(void)appWillEnterForegroundNotification:(NSNotification *)notification {
-    Wilddog *userWilddog = [[self.wilddog childByAppendingPath:@"users"] childByAppendingPath:self.myUserID];
+    WDGSyncReference *userWilddog = [[self.wilddog child:@"users"] child:self.myUserID];
     [userWilddog setValue:@YES];
     [userWilddog onDisconnectRemoveValue];
 }
@@ -88,7 +88,7 @@
 -(void)startPreview {
 
 #if !TARGET_IPHONE_SIMULATOR
-    WDGVideoLocalStreamConfiguration *configuration = [[WDGVideoLocalStreamConfiguration alloc] initWithVideoOption:WDGVideoConstraintsLow16x9 audioOn:YES];
+    WDGVideoLocalStreamConfiguration *configuration = [[WDGVideoLocalStreamConfiguration alloc] initWithVideoOption:WDGVideoConstraintsStandard16x9 audioOn:YES];
     self.localStream = [self.wilddogVideoClient localStreamWithConfiguration:configuration];
 #else
     //diable camera controls if on the simulator

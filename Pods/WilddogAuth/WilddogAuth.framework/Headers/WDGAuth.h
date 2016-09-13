@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import <WilddogAuth/WDGAuthErrors.h>
+#import "WDGAuthErrors.h"
 
 @class WDGAuth;
 @class WDGAuthCredential;
 @class WDGUser;
+@class WDGApp;
 @protocol WDGAuthStateListener;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -62,11 +63,21 @@ typedef void (^WDGSendPasswordResetCallback)(NSError *_Nullable error);
 @interface WDGAuth : NSObject
 
 /** @fn auth
- @brief 以 appID 来获取 auth 对象。如果之前没有创建过 auth 对象，会自动创建一个。
- @param appID 应用的 appID。
+ @brief 获取 auth 对象。如果之前没有创建过 auth 对象，会自动创建一个。
  @discussion 能确保线程安全。
  */
-+ (nullable WDGAuth *)authWithAppID:(NSString *)appID NS_SWIFT_NAME(auth(appID:));
++ (nullable WDGAuth *)auth NS_SWIFT_NAME(auth());
+
+/** @fn authWithApp:
+ @brief 通过 WDGApp 来创建 WDGAuth 对象。
+ @param app 用来创建 WDGAuth 对象的 WDGApp.
+ */
++ (nullable WDGAuth *)authWithApp:(WDGApp *)app;
+
+/** @property app
+ @brief 这个 WDGAuth 对象所属的 App.
+ */
+@property(nonatomic, weak, readonly, nullable) WDGApp *app;
 
 /** @property currentUser
  @brief 同步的获取当前缓存的用户，如果没有登录用户则为 null。

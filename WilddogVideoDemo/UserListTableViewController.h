@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Wilddog.h>
+#import <WilddogSync/WilddogSync.h>
 typedef void (^selectedUser)(NSString *user);
 
 @interface UserListTableViewController : UITableViewController
 @property(nonatomic, assign) NSString *userID;
-@property(nonatomic, strong)Wilddog *wilddog;
+@property(nonatomic, strong) WDGSyncReference *wilddog;
 @property(nonatomic, strong) selectedUser selectedUserBlock;
 
 @end

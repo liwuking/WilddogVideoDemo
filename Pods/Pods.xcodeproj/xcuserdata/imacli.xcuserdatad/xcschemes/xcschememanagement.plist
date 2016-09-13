@@ -14,25 +14,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>WilddogSync.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1777B7E9873529699A08F7C2CE43CC4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3F8839CD337B83237B130F15482780D5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3FBB61BD828C9787B3C98BAF8AD29D71</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>53A7CD8641B1B490E0B7A1C5FA28BB5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

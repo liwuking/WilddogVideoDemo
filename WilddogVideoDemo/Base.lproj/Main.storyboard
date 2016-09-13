@@ -103,6 +103,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-Wo-Zj2" customClass="WDGVideoView">
                                 <rect key="frame" x="-4" y="64" width="191" height="300"/>
+                                <color key="backgroundColor" red="0.80364188759999999" green="0.17134295299999999" blue="0.1085492302" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="1GW-To-eSZ"/>
                                 </constraints>
@@ -124,15 +125,39 @@
                                     <action selector="clickUserList:" destination="o9Z-eu-0nS" eventType="touchUpInside" id="VOr-Pk-6O4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的Wilddog ID:  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78b-01-h4M">
+                                <rect key="frame" x="19" y="382" width="236" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="236" id="5aM-wq-0uy"/>
+                                    <constraint firstAttribute="height" constant="30" id="ybd-US-kwV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9I8-BS-j0f">
+                                <rect key="frame" x="20" y="413" width="336" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2ej-2y-Ij7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="i9x-un-gKC" secondAttribute="trailing" constant="-20" id="9db-VT-VpM"/>
                             <constraint firstItem="RQD-Ri-Myo" firstAttribute="top" secondItem="i9x-un-gKC" secondAttribute="bottom" constant="113" id="DZ0-R9-59z"/>
                             <constraint firstItem="nVN-86-K7Z" firstAttribute="leading" secondItem="xHO-Wo-Zj2" secondAttribute="trailing" id="Jcu-Eq-7aD"/>
+                            <constraint firstItem="78b-01-h4M" firstAttribute="top" secondItem="i9x-un-gKC" secondAttribute="bottom" constant="18" id="MWT-Jl-rJr"/>
                             <constraint firstItem="nVN-86-K7Z" firstAttribute="centerX" secondItem="Pm7-ba-dQR" secondAttribute="centerX" id="Pw4-4n-PBK"/>
                             <constraint firstItem="RQD-Ri-Myo" firstAttribute="centerX" secondItem="Pm7-ba-dQR" secondAttribute="centerX" id="aYS-ZC-xKI"/>
+                            <constraint firstItem="9I8-BS-j0f" firstAttribute="top" secondItem="78b-01-h4M" secondAttribute="bottom" constant="1" id="blM-ft-dLp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9I8-BS-j0f" secondAttribute="trailing" constant="3" id="e50-ue-3Wu"/>
                             <constraint firstItem="xHO-Wo-Zj2" firstAttribute="top" secondItem="OWp-9B-Ywu" secondAttribute="bottom" id="leL-1f-jtX"/>
+                            <constraint firstItem="9I8-BS-j0f" firstAttribute="leading" secondItem="Pm7-ba-dQR" secondAttribute="leadingMargin" constant="4" id="sLC-Vq-v5r"/>
+                            <constraint firstItem="78b-01-h4M" firstAttribute="leading" secondItem="Pm7-ba-dQR" secondAttribute="leadingMargin" constant="3" id="wd2-hG-aed"/>
                             <constraint firstItem="nVN-86-K7Z" firstAttribute="top" secondItem="Pm7-ba-dQR" secondAttribute="topMargin" constant="64" id="weR-nA-fRL"/>
                             <constraint firstItem="i9x-un-gKC" firstAttribute="top" secondItem="OWp-9B-Ywu" secondAttribute="bottom" id="wei-cf-9hv"/>
                             <constraint firstItem="xHO-Wo-Zj2" firstAttribute="leading" secondItem="Pm7-ba-dQR" secondAttribute="leadingMargin" constant="-20" id="xtv-62-eK4"/>
@@ -143,6 +168,7 @@
                     <connections>
                         <outlet property="localVideoView" destination="xHO-Wo-Zj2" id="QoW-Sx-p1E"/>
                         <outlet property="remoteVideoView" destination="i9x-un-gKC" id="ICw-YY-vBT"/>
+                        <outlet property="uidLab" destination="9I8-BS-j0f" id="Jmx-8n-Sht"/>
                         <outlet property="userListBtn" destination="RQD-Ri-Myo" id="P9Q-YW-OQF"/>
                         <segue destination="fK6-3H-AAa" kind="show" identifier="UserListTableViewController" id="nrS-0c-m33"/>
                     </connections>

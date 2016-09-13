@@ -32,6 +32,14 @@
 			<key>FooterText</key>
 			<string>Copyright 2016 Wilddog</string>
 			<key>Title</key>
+			<string>WilddogCore</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2016 Wilddog</string>
+			<key>Title</key>
 			<string>WilddogSync</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>

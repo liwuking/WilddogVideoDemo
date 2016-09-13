@@ -9,6 +9,10 @@ https://www.wilddog.com/terms/sa
 
 Copyright 2016 Wilddog
 
+## WilddogCore
+
+Copyright 2016 Wilddog
+
 ## WilddogSync
 
 Copyright 2016 Wilddog

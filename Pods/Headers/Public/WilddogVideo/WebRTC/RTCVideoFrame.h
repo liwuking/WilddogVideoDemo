@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WebRTC.framework/Headers/RTCVideoFrame.h
+../../../../../WebRTC.framework/Headers/RTCVideoFrame.h

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "RoomViewController.h"
+#import <WilddogCore/WilddogCore.h>
 #import <WilddogAuth/WilddogAuth.h>
 
 @interface ViewController ()
@@ -23,8 +24,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)clickBtn:(id)sender {
+    [WDGApp configureWithOptions:[[WDGOptions alloc] initWithSyncURL:[NSString stringWithFormat:@"https://%@.wilddogio.com", self.textField.text]]];
 
-    self.wilddogAuth = [WDGAuth authWithAppID:self.textField.text];
+    self.wilddogAuth = [WDGAuth auth];
 
     [self.wilddogAuth signInAnonymouslyWithCompletion:^(WDGUser * _Nullable user, NSError * _Nullable error) {
         if (error) {

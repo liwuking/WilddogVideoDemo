@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <WilddogAuth/WDGAuth.h>
-#import <WilddogAuth/WDGUserInfo.h>
+#import "WDGAuth.h"
+#import "WDGUserInfo.h"
 
 @class WDGUserProfileChangeRequest;
 

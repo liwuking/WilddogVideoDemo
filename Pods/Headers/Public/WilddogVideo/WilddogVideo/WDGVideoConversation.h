@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WilddogVideo.framework/Headers/WDGVideoConversation.h
+../../../../../WilddogVideo.framework/Headers/WDGVideoConversation.h

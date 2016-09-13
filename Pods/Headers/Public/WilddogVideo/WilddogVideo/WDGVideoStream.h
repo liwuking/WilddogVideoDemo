@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WilddogVideo.framework/Headers/WDGVideoStream.h
+../../../../../WilddogVideo.framework/Headers/WDGVideoStream.h

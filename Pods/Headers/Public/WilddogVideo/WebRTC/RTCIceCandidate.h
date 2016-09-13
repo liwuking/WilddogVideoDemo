@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WebRTC.framework/Headers/RTCIceCandidate.h
+../../../../../WebRTC.framework/Headers/RTCIceCandidate.h

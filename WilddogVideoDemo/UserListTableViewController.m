@@ -32,7 +32,7 @@
 -(void)setupOnlineUserMonitoring {
 
     __block UserListTableViewController *strongSelf = self;
-    [[self.wilddog childByAppendingPath:@"users"] observeSingleEventOfType:WEventTypeValue withBlock:^(WDataSnapshot * _Nonnull snapshot) {
+    [[self.wilddog child:@"users"] observeSingleEventOfType:WDGDataEventTypeValue withBlock:^(WDGDataSnapshot * _Nonnull snapshot) {
 
         NSDictionary *userDict = snapshot.value;
         for (NSString *userID in userDict.allKeys) {

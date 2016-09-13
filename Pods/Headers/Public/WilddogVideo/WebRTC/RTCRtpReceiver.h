@@ -1,1 +1,1 @@
-../../../../WilddogVideo/WebRTC.framework/Headers/RTCRtpReceiver.h
+../../../../../WebRTC.framework/Headers/RTCRtpReceiver.h
