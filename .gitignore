@@ -1,0 +1,8 @@
+Pods/
+design/
+*.xcuserdata
+*.xcuserstate
+*.DS_Store
+WilddogVideoDemo.xcworkspace
+distribution
+fastlane
